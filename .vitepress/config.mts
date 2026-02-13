@@ -5,6 +5,7 @@ export default defineConfig({
   description: '个人博客 - 分享笔记与文章',
   lang: 'zh-CN',
   cleanUrls: true,
+  ignoreDeadLinks: true,
 
   head: [
     ['meta', { name: 'theme-color', content: '#5b6cf0' }],
